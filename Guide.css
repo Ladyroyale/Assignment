@@ -1,0 +1,206 @@
+/* ==== Google Font Import - Poformisins ====  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,300&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+body{
+    background-color: white;
+}
+
+div.container{
+    background-color: #fff; 
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form.login.form{
+    padding: 20px;
+    background-color: #f0f0f0;
+    color: black;
+    margin: auto
+    box-shadow 0 5px 10px rgba(0, 0, 0.1);
+    max-width: 430px;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+h2.title{
+    color: black;
+    font-size: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    text-align: center;
+    align-items: center
+}
+.input.field input[placeholder]{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 50px 14px 15px ;
+    border: 2px solid aqua;
+    outline: none;
+    border-radius: 30px;
+    background-color: white;
+}
+.input.field i{
+    line-height: 40px;
+   font-size: 14px;
+}
+Label{
+    font-size: 16px;
+    text-align: left;
+    margin: 10px;
+}
+input.btn.solid{
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: aqua;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+input.btn.solid:hover{
+    background-color: transparent;
+    border: 2px solid aqua;
+    cursor: pointer;
+}
+p.social-text{
+    color: black;
+ text-align: center;
+ justify-content: center;
+ font-size: 16px;
+ font-weight: 500;
+ padding: 30px;
+ margin-bottom: auto;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+.social-media i{
+    height: 46px;
+    width: 46px;
+    border: 1px solid #0000;
+    display: flex;
+    margin: 0 0.45rem;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: aqua;
+    color:white;
+    font-size: 1.1rem;
+    border-radius: 50%;
+}
+.social-media i:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+
+
+
+form.Registration.form{
+    padding: 20px;
+    background-color: #424242;
+    color: white;
+    margin: auto
+    box-shadow 0 5px 10px rgba(0, 0, 0.1);
+    max-width: 430px;
+    min-height: 70vh;
+    align-items: center;
+    justify-content: center;   
+}
+form.Registration.form h2.title{
+    color: white;
+    font-size: 30px;
+    margin-top: 200px;
+    margin-bottom: 10px;
+    padding-bottom: 1px;
+    text-align: center;
+    align-items: center   
+}
+.input.field.space [placeholder]{
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+.input.field.space Label{
+    font-size: 16px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.input.field.space select{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 50px 14px 15px ;
+    border: 2px solid aqua;
+    outline: none;
+    border-radius: 30px;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.input.field.space input{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 50px 14px 15px ;
+    border: 2px solid aqua;
+    outline: none;
+    border-radius: 30px;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 10px;
+ }
+ p{
+    text-align: center;
+ }
+ span{
+    color: aqua;
+ }
+
+form{
+    padding: 20px;
+    background-color: #f0f0f0;
+    color: black;
+    margin: auto
+    box-shadow 0 5px 10px rgba(0, 0, 0.1);
+    max-width: 430px;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center; 
+}
+img{
+    padding: 10px;
+    width: 400px;
+    background-color: aqua;
+}
+
+h2{
+    font-size: 20px;
+    text-align: center;
+}
+input.button{
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: aqua;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+  align-items: center;
+    
+}
